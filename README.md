@@ -15,14 +15,11 @@ extensions:
             startDelay: 1
 modules:
     enabled:
-        - \Helper\Acceptance
+        - \Helper\Acceptanc
         - WebDriver:
             url: "http://localhost:8000/index-test.php"
             browser: chrome
             capabilities:
                     chromeOptions:
                       args: ["--headless", "--disable-gpu", "--disable-extensions"]
-        - Yii2:
-            part: [orm, email, fixtures]
-            entryScript: index-test.php
 </pre>
