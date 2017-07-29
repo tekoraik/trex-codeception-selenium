@@ -13,7 +13,7 @@ class SeleniumExtension extends \Codeception\Extension
         Events::SUITE_BEFORE => 'beforeSuite',
         Events::STEP_BEFORE => 'beforeStep',
         Events::TEST_FAIL => 'testFailed',
-        Events::RESULT_PRINT_AFTER => 'print',
+        Events::RESULT_PRINT_AFTER => 'printResult',
     );
 
     /**
@@ -40,7 +40,7 @@ class SeleniumExtension extends \Codeception\Extension
 
     public function testFailed(\Codeception\Event\FailEvent $e) {}
 
-    public function print(\Codeception\Event\PrintResultEvent $e) {}
+    public function printResult(\Codeception\Event\PrintResultEvent $e) {}
 
     /**
      * @param \Codeception\Event\SuiteEvent $e
