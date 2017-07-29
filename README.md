@@ -15,7 +15,7 @@ extensions:
             startDelay: 1
 modules:
     enabled:
-        - \Helper\Acceptanc
+        - \Helper\Acceptance
         - WebDriver:
             url: "http://localhost:8000/index-test.php"
             browser: chrome
