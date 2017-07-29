@@ -64,7 +64,7 @@ class SeleniumExtension extends \Codeception\Extension
             2 => array("file", "/tmp/output-selenium-err.log", "w"),
         );
 
-        $this->daemon = proc_open('java -jar ' . __DIR__ . '/../resources/selenium-server-standalone-3.1.0.jar', $descriptorspec, $this->pipes);
+        $this->daemon = proc_open('java -jar ' . __DIR__ . '/../resources/selenium-server-standalone-3.4.0.jar', $descriptorspec, $this->pipes);
         echo "Running selenium\n";
         sleep(4);
     }
