@@ -1,0 +1,11 @@
+{
+    "name": "trex/codeception-selenium",
+    "description": "A extension to start selenium server before acceptance test suite starts and stop it at the end of execution",
+    "authors": [
+        {
+            "name": "Jose Luis Orta",
+            "email": "infoluis85@gmail.com"
+        }
+    ],
+    "require": {}
+}
