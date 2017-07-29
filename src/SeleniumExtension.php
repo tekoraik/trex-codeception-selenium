@@ -1,5 +1,5 @@
 <?php
-namespace tests\utils\extensions\selenium;
+namespace trex\codeception\selenium;
 
 use \Codeception\Events;
 
