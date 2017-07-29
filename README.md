@@ -1,4 +1,5 @@
 **Acceptance test configuration example with recommendable extension PhpBuiltinServer**
+
 <pre>
 class_name: AcceptanceTester
 extensions:
