@@ -7,7 +7,9 @@
             "email": "infoluis85@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "codeception/base": ">=2.2.8"
+    },
     "autoload": {
         "psr-4": { "trex\\codeception\\selenium\\": "src" }
     }
