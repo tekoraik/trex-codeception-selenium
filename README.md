@@ -5,7 +5,7 @@ class_name: AcceptanceTester
 extensions:
     enabled:
         - Codeception\Extension\PhpBuiltinServer
-        - tests\utils\extensions\selenium\SeleniumExtension
+        - trex\codeception\selenium\SeleniumExtension
     config:
         Codeception\Extension\PhpBuiltinServer:
             hostname: localhost
