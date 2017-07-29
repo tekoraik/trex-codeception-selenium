@@ -82,7 +82,7 @@ class SeleniumExtension extends \Codeception\Extension
         //get the parent pid of the process we want to kill
         $ppid = $status['pid'];
         //use ps to get all the children of this process, and kill them
-        $pids = preg_split('/\s+/', exec("ps -o pid --no-heading --ppid $ppid"));
+        $pids = preg_split('/\s+/', exec("ps -o pid -p$ppid"));
         foreach($pids as $pid) {
             if(is_numeric($pid)) {
                 echo "Killing $pid\n";
