@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "codeception/base": ">=2.2.8"
+        "codeception/codeception": "2.2.9"
     },
     "autoload": {
         "psr-4": { "trex\\codeception\\selenium\\": "src" }
